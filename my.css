@@ -1,0 +1,47 @@
+p{
+    color: blue;
+}
+.verde{
+    color:green;
+}
+
+.tarjeta>.rojo{
+    color: #2ce3c1;
+
+}
+
+.tarjeta{
+    background: #333333;
+    color: #ffffff;
+}
+
+.el-boton-de-LGsus{
+    border:none;
+    background: #FFC72C;
+    border-radius: 3px;
+    margin: 0.5em;
+    padding: 10px 30px;
+    display: inline-block;
+
+}
+
+.rojo{
+    color: #e32c2c !important;
+
+}
+
+
+.ferrary{
+    background: #DA291C;
+}
+
+
+
+.caterpillar{
+    background: #FFC72C;
+}
+.btn-red {
+    background: #DA291C;
+    color:gainsboro;
+
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+    <link rel="stylesheet" href="my.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+
+
+
+
+
+<body>
+<p>Hola Socios Mis Llaves</p>
+<p class="verde">soy verde</p>
+<p>Hola Socios Mis Llaves</p>
+<p>Hola Socios Mis Llaves</p>
+<p class="verde">hola Socios mis Llaves</p>
+<p>Hola Socios Mis Llaves</p>
+<p class="rojo">hola Socios mis Llaves</p>
+<p>Hola Socios Mis Llaves</p>
+
+<div class="tarjeta">
+    <h2 class="rojo">LOL</h2>
+</div>
+
+<div class="btn btn-success" id="but">Success</div>
+
+<script>
+    //esto es JavaScript    
+    document.getElementById("but").addEventListener('click', function(event){
+        let btn = event.target
+        
+        if (btn.classList.contains('btn-success')) {
+            btn.classList.remove('btn-success');
+            btn.classList.add('btn-danger');
+        } else {
+            btn.classList.remove('btn-danger');
+            btn.classList.add('btn-success');
+        }
+
+        
+
+    });
+</script>
+
+</body>
+</html>
